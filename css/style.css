@@ -21,13 +21,13 @@
 
 /* UTILITIES */
 :root {
-    --blue:#2C3E50;
+    --dark-gray:#2C3E50;
     --light-blue:#3A546D;
     --green:#1ABC9C;
 }
 
 .bg-blue {
-    background-color: var(--blue);
+    background-color: var(--dark-gray);
 }
 
 .bg-green {
