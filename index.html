@@ -116,34 +116,57 @@
 
 
         <!--Contact-->
-        <section id="contact" class="py-5 text-center debug">
+        <section id="contact" class="py-5 text-center debu">
             <div class="text-uppercase d-flex flex-column align-items-center text-center">
                 <h1 class="fw-bold">Contact me</h1>
             </div>
             <div class="container w-75 text-start">
-                <form>
-                    <div class="mb-3">
-                        <label for="name" class="form-label h4 text-capitalize fw-bold">Name</label>
-                        <input type="text" class="form-control border-0 border-bottom rounded-0" id="name" placeholder="" required>
-                        <label for="name" class="form-label h4 text-capitalize fw-bold">Name</label>
-                        <input type="text" class="form-control border-0 border-bottom rounded-0" id="name" placeholder="" required>
-                        <label for="name" class="form-label h4 text-capitalize fw-bold">Name</label>
-                        <input type="text" class="form-control border-0 border-bottom rounded-0" id="name" placeholder="" required>
-                        <label for="name" class="form-label h4 text-capitalize fw-bold">Name</label>
-                        <input type="text" class="form-control border-0 border-bottom rounded-0" id="name" placeholder="" required>
-                    </div>
-                </form>
+                <div class="row mb-3">
+                    <form action="">
+                        <input type="text" class="col-12 border-0 border-bottom" id="name" placeholder="Name" >
+                        <input type="email" class="col-12 border-0 border-bottom" id="email" placeholder="Email" >
+                        <input type="number" class="col-12 border-0 border-bottom" id="number" placeholder="Number" >
+                        <textarea class="col-12 border-0 border-bottom" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    </form>
+                </div>
+                <button type="submit" class="btn btn-success">Send</button>
             </div>
         </section>
     </main>
 
     
      <footer class="text-center text-light bg-light-blue">
-        <div class="debug container py-5">
+        <div class="debu container py-5">
              <div class="row g-4">
-                 <div class="col-12 col-md-4"></div>
-                    <div class="col-12 col-md-4"></div>
-                    <div class="col-12 col-md-4"></div>
+
+                 <div class="col-12 col-md-4">
+                    <h6 class="text-uppercase">Locations</h6>
+                    <p>2215 John Daniel Drive, MO <br> 54243 </p>
+                 </div>
+
+                 <div class="col-12 col-md-4">
+                    <h6 class="text-uppercase">Around the web</h6>
+                    <a class="icon-circle rounded-circle d-inline-flex justify-content-center align-items-center btn btn-outline-light" href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a> 
+
+                    <a class="icon-circle d-inline-flex justify-content-center align-items-center btn btn-outline-light rounded-circle" href="#">
+                        <i class="fa-brands fa-google-plus-g"></i>
+                    </a> 
+
+                    <a class="icon-circle d-inline-flex justify-content-center align-items-center btn btn-outline-light rounded-circle" href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <a class="icon-circle d-inline-flex justify-content-center align-items-center btn btn-outline-light rounded-circle" href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                 </div>
+
+                 <div class="col-12 col-md-4">
+                    <h6 class="text-uppercase">About Freelancer</h6>
+                    <p>Freelancer is a free to use, open source Bootstrap theme created by <span class="start-bootstrap">Start Bootstrap</span></p>
+                 </div>
                 </div>
             </div>
     </footer>

@@ -37,3 +37,15 @@
 .bg-light-blue {
     background-color: var(--light-blue);
 }
+
+.start-bootstrap {
+    color: var(--green);
+}
+
+.icon-circle {
+   height: 40px;
+   width: 40px;
+}
+
+
+
